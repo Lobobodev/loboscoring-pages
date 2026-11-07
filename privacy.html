@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>LoboScoring 隐私政策</title>
+<style>
+:root {
+  color-scheme: light;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 16px;
+  line-height: 1.85;
+  color: #262626;
+  background: #fff;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+.page { max-width: 740px; margin: 0 auto; padding: 0 28px; }
+header { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px 24px; padding: 26px 0 20px; border-bottom: 1px solid #e8e8e8; }
+.brand { color: #222; font-weight: 600; text-decoration: none; }
+nav { display: flex; gap: 24px; font-size: 14px; }
+a { color: #2866a0; text-underline-offset: 3px; overflow-wrap: anywhere; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible { outline: 2px solid #2866a0; outline-offset: 4px; }
+nav a { text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+nav a[aria-current="page"] { color: #262626; text-decoration: underline; }
+main { padding: 40px 0 0; }
+h1 { margin: 0 0 14px; font-size: 30px; line-height: 1.4; font-weight: 650; }
+h2 { margin: 0 0 12px; font-size: 20px; line-height: 1.5; font-weight: 600; }
+p { margin: 0 0 16px; overflow-wrap: anywhere; }
+section { margin-top: 32px; }
+.updated { margin-bottom: 30px; color: #707070; font-size: 14px; }
+footer { margin-top: 48px; padding: 20px 0 32px; border-top: 1px solid #e8e8e8; color: #707070; font-size: 13px; }
+footer p { margin-bottom: 8px; }
+.skip { position: absolute; top: 0; left: -9999px; }
+.skip:focus { left: 12px; padding: 8px 12px; background: #fff; }
+@media (max-width: 480px) {
+  .page { padding: 0 22px; }
+  header { padding-top: 20px; }
+  main { padding-top: 30px; }
+  h1 { font-size: 27px; }
+}
+@media print {
+  header, .skip { display: none; }
+  .page { max-width: none; padding: 0; }
+  a { color: inherit; }
+  h2 { break-after: avoid; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#content">跳到正文</a>
+<div class="page">
+<header>
+<a class="brand" href="index.html">LoboScoring</a>
+<nav aria-label="页面导航"><a href="index.html">支持</a> <a href="privacy.html" aria-current="page">隐私政策</a></nav>
+</header>
+<main id="content">
+<h1>隐私政策</h1>
+<p class="updated">更新日期：2026-11-07</p>
+<section>
+<h2>适用范围</h2>
+<p>本政策适用于萝卜记分 - LoboScoring（设备上的名称为 LoboScoring）。当前版本提供羽毛球记分、比赛记录和娱乐播报，不要求注册账号。开发者联系方式见本页末尾。</p>
+</section>
+<section>
+<h2>比赛、球员与偏好设置</h2>
+<p>你输入的球员名字或昵称、球员颜色、比分、时间、发球方、站位、操作来源、撤销及恢复比赛所需状态，以及语音和播报偏好保存在本机，用于记分、恢复比赛、查看历史和个性化设置。</p>
+<p>当前版本没有开发者云端同步、广告或第三方分析 SDK，不自动将比赛记录、球员资料或使用事件上传给开发者。系统备份和文件共享由设备设置决定，App 本地数据可能随系统备份保存；这不属于开发者提供的云端同步。</p>
+</section>
+<section>
+<h2>语音输入与麦克风</h2>
+<p>仅在你启用语音输入并授予麦克风权限后，App 使用现场声音进行语音记分和娱乐关键词识别。识别由受支持设备上的 Apple SpeechAnalyzer / SpeechTranscriber 处理；首次使用或系统更新时，系统可能需要联网下载语音模型。</p>
+<p>App 不保存新的录音文件或原始识别文字日志，也不向开发者服务器或 AI 服务发送声音。界面识别文字在各次更新后 10 秒清空，关闭语音输入时立即清空。识别过程中的短暂状态不作为长期记录保存。</p>
+<p>不支持语音识别的设备会禁用相关入口。拒绝或撤销麦克风权限不影响屏幕记分和键盘指环使用。你可在 App 中关闭语音输入，也可在系统设置中管理麦克风权限。使用现场语音时，请告知同场参与者。</p>
+</section>
+<section>
+<h2>指环与设备方向</h2>
+<p>键盘指环通过系统键盘事件传入操作，App 仅在允许记分的界面响应相应按键，不采集其他 App 中的输入。设备方向数据用于调整比分布局，不作为位置或运动轨迹上传。</p>
+</section>
+<section>
+<h2>主动反馈与诊断分享</h2>
+<p>问题反馈由你主动填写。生成诊断仅在本机创建预览；必须由你选择系统分享、邮件等方式及接收方后，内容才会发送到所选服务。App 不自动上传诊断。</p>
+<p>诊断包含你填写的问题描述、生成时间、App 版本与构建标识、设备类型及系统版本、当前比分、有关设置、语音状态和分类事件计数。构建标识用于区分软件版本，并非设备唯一标识。诊断不自动附带录音、识别原文或球员姓名；你在问题描述或截图中主动填写的内容除外。请不要填写无关的敏感信息。</p>
+<p>如果你将反馈发送给开发者，开发者会收到你发送的内容，以及邮件或其他渠道随附的联系信息，用于答复和排查问题。反馈渠道及收件服务商按各自政策处理数据；你可以通过本页邮箱提出查询或删除已发送反馈的请求。</p>
+</section>
+<section>
+<h2>保存与删除</h2>
+<p>比赛记录和球员资料保存在设备上，供你持续使用；可在比赛历史和球员管理入口删除相应资料。锁定的比赛需要先解锁，正在进行或等待恢复的比赛受到删除保护。删除常用球员不会自动改写已有比赛中的球员名字。</p>
+<p>正常离开反馈页或重新生成诊断时，App 清理上一份临时诊断文件；异常退出后可能留下临时文件，可通过“语音数据与隐私”清理。已分享或另存到其他 App 的副本，需要在相应位置删除。</p>
+<p>“语音数据与隐私”也可清理本 App 容器中旧版本遗留的录音和识别文字，同时保留比赛事实。系统中的“删除 App”会移除其本地容器；“卸载 App”可能保留数据。系统备份、已导出的文件及已发送的反馈不会随之自动删除。</p>
+</section>
+<section>
+<h2>TestFlight 与政策更新</h2>
+<p>通过 TestFlight 安装测试版时，Apple 按其条款处理测试安装、崩溃和反馈等信息，开发者可能通过 App Store Connect 查看 Apple 提供的测试信息；这与 App 内主动生成的诊断文件是不同渠道。</p>
+<p>如后续增加账号、云同步、AI 服务或其他数据用途，会更新本政策及相应说明，并在需要时征求你的授权。当前版本没有接入 AI 服务。</p>
+</section>
+<section>
+<h2>联系开发者</h2>
+<p>隐私问题、反馈及数据删除请求，请联系：772966962@qq.com。处理请求时可能需要你提供足够的信息，以便确认并找到你主动发送的反馈。</p>
+</section>
+
+</main>
+<footer>
+<p>LoboScoring · <a href="mailto:772966962@qq.com">772966962@qq.com</a></p>
+<p>此网站没有广告、统计脚本或表单。托管服务按其自身政策处理访问请求。</p>
+</footer>
+</div>
+</body>
+</html>
